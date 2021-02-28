@@ -2,146 +2,165 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>กลับหน้า LeagueofLegeds</title>
-    <style>
-        body  {
-  background-image: url("https://kingofgamersclub.com/storage/news/051-01.jpg");
-  background-color: #cccccc;
-  -webkit-background-size: cover;
-  background-size: cover;
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>กลับหน้า LeagueofLegeds</title>
+  <style>
+    body {
+      background-image: url("https://kingofgamersclub.com/storage/news/051-01.jpg");
+      background-color: #cccccc;
+      -webkit-background-size: cover;
+      background-size: cover;
 
 
-}
+    }
 
-        table, td, th {
-          border: 1px solid black;
-        }
-        td {
-  text-align: center;
-}
-        table {
-          width: 100%;
-          border-collapse: collapse;
-        }
-        .button {
-  background-color: #3153EA;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.button1 {
-  background-color: #13F5EB;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
+    table,
+    td,
+    th {
+      border: 1px solid black;
+    }
 
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
+    td {
+      text-align: center;
+    }
 
-.button:hover span {
-  padding-right: 25px;
-}
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
 
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-#league {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
+    .button {
+      background-color: #3153EA;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
 
-#league td, #league th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-#league tr{
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: center;
-  background-color: white;
-  color: black;
-}
-#league tr:nth-child(even){background-color: #f2f2f2;}
+    .button1 {
+      background-color: #13F5EB;
+      border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .button:hover span {
+      padding-right: 25px;
+    }
+
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+
+    #league {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    #league td,
+    #league th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    #league tr {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: white;
+      color: black;
+    }
+
+    #league tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
 
 
 
-#league th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: center;
-  background-color: #F55413;
-  color: white;
-}
-        </style>
+    #league th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: #F55413;
+      color: white;
+    }
+  </style>
 </head>
 
-<a href="/lol/create" class="button"><span>อัพแพท</span></a> <a href="https://lol.garena.in.th/main" class="button"><span>เว็บ LeagueofLegeds</span></a><br><br>
+<a href="/lol/create" class="button"><span>อัพแพท</span></a> <a href="https://lol.garena.in.th/main"
+  class="button"><span>เว็บ LeagueofLegeds</span></a><br><br>
+
 <body>
-    <table id="league">
-        <tr>
-            <th>เลขไอเท็ม</th>
-            <th>ชื่อไอเท็ม</th>
-            <th>ความเสียหายที่ทำ</th>
-            <th>ชนิดไอเท็ม</th>
-            <th>ความสามารถ</th>
-            <th>ราคาที่ต้องจ่าย</th>
-            <th>แก้ไข |ลบ</th>
-        </tr>
-        <tr th:each="bell:${league}">
-            <td>
-                <P th:text="${bell.id}"></p>
-            </td>
-            <td>
-                <p th:text="${bell.itemname}"></p>
-            </td>
-            <td>
-                <p th:text="${bell.damageitem}"></p>
-            </td>
-            <td>
-                <P th:text="${bell.categoryitem}"></p>
-            </td>
-            <td>
-                <p th:text="${bell.ablityitem}"></p>
-            </td>
-            <td>
-                <p th:text="${bell.price}"></p>
-            </td>
-            <td>
-                <a th:href="  '/lol/edit?id=' + ${ bell.id } ">edit</a>
-                <a th:href="  '/lol/delete?id=' + ${bell.id} ">delete</a>
-            </td>
-        </tr>
-    </table>
+  <table id="league">
+    <tr>
+      <th>เลขไอเท็ม</th>
+      <th>ชื่อไอเท็ม</th>
+      <th>ความเสียหายที่ทำ</th>
+      <th>ชนิดไอเท็ม</th>
+      <th>ความสามารถ</th>
+      <th>ราคาที่ต้องจ่าย</th>
+      <th>แก้ไข |ลบ</th>
+    </tr>
+    <tr th:each="bell:${league}">
+      <td>
+        <P th:text="${bell.id}"></p>
+      </td>
+      <td>
+        <p th:text="${bell.itemname}"></p>
+      </td>
+      <td>
+        <p th:text="${bell.damageitem}"></p>
+      </td>
+      <td>
+        <P th:text="${bell.categoryitem}"></p>
+      </td>
+      <td>
+        <p th:text="${bell.ablityitem}"></p>
+      </td>
+      <td>
+        <p th:text="${bell.price}"></p>
+      </td>
+      <td>
+        <a th:href="  '/lol/edit?id=' + ${ bell.id } ">edit</a>
+        <a th:href="  '/lol/delete?id=' + ${bell.id} ">delete</a>
+      </td>
+    </tr>
+  </table><br><br>
+  <iframe
+    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fth.lol&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 </body>
 
 </html>
