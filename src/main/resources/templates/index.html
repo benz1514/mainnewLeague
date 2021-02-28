@@ -56,6 +56,30 @@
       margin: 4px 2px;
       cursor: pointer;
     }
+    .button2 {
+      background-color: #f08e0f;
+      border: none;
+      color: black;
+      padding: 5px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .button3 {
+      background-color: #37c92a;
+      border: none;
+      color: black;
+      padding: 5px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
 
     .button span {
       cursor: pointer;
@@ -81,11 +105,12 @@
       opacity: 1;
       right: 0;
     }
-
+  
     #league {
       font-family: Arial, Helvetica, sans-serif;
       border-collapse: collapse;
       width: 100%;
+      display: cover;
     }
 
     #league td,
@@ -112,7 +137,7 @@
       padding-top: 12px;
       padding-bottom: 12px;
       text-align: center;
-      background-color: #F55413;
+      background-color: #8470FF;
       color: white;
     }
   </style>
@@ -152,8 +177,8 @@
         <p th:text="${bell.price}"></p>
       </td>
       <td>
-        <a th:href="  '/lol/edit?id=' + ${ bell.id } ">edit</a>
-        <a th:href="  '/lol/delete?id=' + ${bell.id} ">delete</a>
+        <a th:href="  '/lol/edit?id=' + ${ bell.id } " class="button2">edit</a><br>
+        <a th:href="  '/lol/delete?id=' + ${bell.id} " class="button3">delete</a>
       </td>
     </tr>
   </table><br><br>
